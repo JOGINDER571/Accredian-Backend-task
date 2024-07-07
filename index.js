@@ -4,7 +4,7 @@ const referralRoutes = require('./routes/referralRoutes');
 const cors=require("cors");
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://accredian-frontend-blue.vercel.app"],
     methods: ["POST", "GET", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
